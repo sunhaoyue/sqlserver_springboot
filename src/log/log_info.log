@@ -1,0 +1,316 @@
+2019-06-18 14:27:55.409 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 17820 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:27:55.411 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:27:55.896 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:27:55.897 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:28:01.136 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f437588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:28:03.478 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-06-18 14:28:03.527 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:28:03.549 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:28:03.549 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:28:03.582 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:28:04.337 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:28:04.346 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:28:04.349 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8452 ms
+2019-06-18 14:28:04.491 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:28:04.500 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:28:05.018 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:28:06.258 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:28:07.196 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:28:08.449 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-18 14:28:08.741 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:28:08.836 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/Sqlserver_springboot'
+2019-06-18 14:28:08.846 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 15.059 seconds (JVM running for 17.832)
+2019-06-18 14:35:53.191 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18044 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:35:53.196 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:35:53.303 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:35:53.303 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:35:55.309 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$aa56404b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:35:56.125 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-06-18 14:35:56.146 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:35:56.158 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:35:56.158 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:35:56.168 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:35:56.483 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:35:56.487 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:35:56.487 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3183 ms
+2019-06-18 14:35:56.555 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:35:56.559 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:35:56.710 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:35:57.423 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:35:57.876 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:35:58.645 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:35:58.694 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:35:58.695 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:35:58.707 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:35:58.707 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:35:58.707 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+2019-06-18 14:35:58.738 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:35:58.746 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:36:38.093 [Thread-35] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:36:38.108 [Thread-35] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:36:38.704 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 17820 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:36:38.705 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:36:39.697 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f437588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:36:40.234 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2019-06-18 14:36:40.236 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:40.237 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:36:40.238 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:36:40.588 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18065 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:36:40.591 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:36:40.781 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:36:40.782 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:36:40.832 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:36:40.834 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:36:40.834 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2123 ms
+2019-06-18 14:36:41.003 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:36:41.003 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:36:41.202 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:36:41.526 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-06-18 14:36:41.983 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:36:42.508 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-18 14:36:42.744 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:42.749 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/Sqlserver_springboot'
+2019-06-18 14:36:42.750 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 4.147 seconds (JVM running for 531.697)
+2019-06-18 14:36:42.760 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-06-18 14:36:43.657 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ce9ee85b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:36:44.563 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2019-06-18 14:36:44.585 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:44.597 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:36:44.597 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:36:44.608 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:36:44.984 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:36:44.990 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:36:44.990 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4208 ms
+2019-06-18 14:36:45.063 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:36:45.067 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:36:45.386 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:36:45.980 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:36:46.433 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:36:47.209 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:47.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:47.262 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:36:47.273 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:36:47.274 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:47.274 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+2019-06-18 14:36:47.305 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:36:47.309 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:37:57.614 [Thread-44] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:37:57.616 [Thread-44] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-06-18 14:37:57.961 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 17820 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:37:57.962 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:37:58.760 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f437588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:37:59.023 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-18 14:37:59.024 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:37:59.025 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:37:59.025 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:37:59.274 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:37:59.276 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:37:59.276 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1305 ms
+2019-06-18 14:37:59.384 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:37:59.385 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:37:59.473 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:37:59.647 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2019-06-18 14:37:59.971 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:00.164 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18098 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:38:00.166 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:38:00.280 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:38:00.280 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:38:00.352 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-18 14:38:00.556 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:38:00.561 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/Sqlserver_springboot'
+2019-06-18 14:38:00.562 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 2.695 seconds (JVM running for 609.503)
+2019-06-18 14:38:00.566 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-06-18 14:38:02.739 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$77bc6ff9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:38:03.771 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-18 14:38:03.793 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:38:03.804 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:38:03.804 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:38:03.813 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:38:04.160 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:38:04.164 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:38:04.165 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3885 ms
+2019-06-18 14:38:04.239 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:38:04.243 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:38:04.404 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:38:05.089 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:38:05.463 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:06.085 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:38:06.124 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:38:06.124 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:38:06.133 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:38:06.133 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:38:06.134 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:38:06.161 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:06.165 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:38:42.169 [Thread-50] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:42.171 [Thread-50] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2019-06-18 14:38:42.525 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 17820 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:38:42.526 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:38:43.242 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f437588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:38:43.682 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2019-06-18 14:38:43.684 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:43.684 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:38:43.685 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:38:43.946 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:38:43.947 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:38:43.948 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1416 ms
+2019-06-18 14:38:43.992 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:38:43.993 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:38:44.061 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:38:44.091 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18117 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:38:44.095 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:38:44.319 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2019-06-18 14:38:44.335 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:38:44.336 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:38:44.680 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:45.199 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-18 14:38:45.400 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:45.437 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8099 (http) with context path '/Sqlserver_springboot'
+2019-06-18 14:38:45.439 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 3.013 seconds (JVM running for 654.377)
+2019-06-18 14:38:45.446 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-06-18 14:38:47.308 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6b83cd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:38:49.443 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2019-06-18 14:38:49.474 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:49.488 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:38:49.488 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:38:49.498 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:38:49.964 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:38:49.968 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:38:49.969 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5633 ms
+2019-06-18 14:38:50.062 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:38:50.066 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:38:50.255 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:38:51.014 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:38:51.484 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:52.125 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:52.166 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:52.167 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:38:52.179 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:38:52.179 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:52.179 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8099"]
+2019-06-18 14:38:52.215 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:38:52.219 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:46:37.340 [Thread-56] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:46:37.347 [Thread-56] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed
+2019-06-18 14:46:37.909 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 17820 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:46:37.909 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:46:38.609 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f437588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:46:38.999 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-18 14:46:39.001 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:39.001 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:46:39.001 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:46:39.460 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:46:39.463 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:46:39.463 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1549 ms
+2019-06-18 14:46:39.609 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:46:39.610 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:46:39.660 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:46:39.833 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+2019-06-18 14:46:40.085 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:46:40.378 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-18 14:46:40.477 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:40.482 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/Sqlserver_springboot'
+2019-06-18 14:46:40.482 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 2.646 seconds (JVM running for 1129.384)
+2019-06-18 14:46:40.486 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-06-18 14:46:42.546 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18339 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:46:42.548 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:46:42.756 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:46:42.756 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:46:45.370 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c3dbc06f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:46:46.187 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-06-18 14:46:46.212 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:46.231 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:46:46.231 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:46:46.245 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:46:46.618 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:46:46.623 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:46:46.624 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3867 ms
+2019-06-18 14:46:46.689 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:46:46.692 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:46:46.845 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:46:47.455 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:46:48.149 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:46:48.973 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:49.022 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:49.022 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:46:49.035 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:46:49.035 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:49.036 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2019-06-18 14:46:49.098 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:46:49.105 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:52:10.132 [Thread-62] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:52:10.141 [Thread-62] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} closed
+2019-06-18 14:52:10.663 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 17820 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:52:10.664 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:52:11.349 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f437588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:52:11.828 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2019-06-18 14:52:11.831 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:11.832 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:52:11.832 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:52:12.270 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:52:12.271 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:52:12.271 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1603 ms
+2019-06-18 14:52:12.395 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:52:12.396 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:52:12.475 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:52:12.596 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18478 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:52:12.598 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:52:12.713 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-6} inited
+2019-06-18 14:52:12.847 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:52:12.848 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:52:13.064 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:52:13.732 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-18 14:52:13.854 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:13.860 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/Sqlserver_springboot'
+2019-06-18 14:52:13.861 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 3.286 seconds (JVM running for 1462.737)
+2019-06-18 14:52:13.866 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-06-18 14:52:15.166 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8b969f6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:52:16.108 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2019-06-18 14:52:16.126 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:16.153 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:52:16.154 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:52:16.186 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:52:16.545 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:52:16.549 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:52:16.550 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3702 ms
+2019-06-18 14:52:16.611 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:52:16.614 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:52:16.784 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:52:17.464 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:52:17.905 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:52:18.609 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:18.651 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:18.651 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:52:18.659 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:52:18.659 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:18.660 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:52:18.719 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:52:18.733 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:55:04.198 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 18549 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Sqlserver_springboot)
+2019-06-18 14:55:04.205 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-06-18 14:55:04.489 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 14:55:04.490 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 14:55:06.787 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e46857a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 14:55:07.678 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2019-06-18 14:55:07.700 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:55:07.712 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 14:55:07.713 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-18 14:55:07.725 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Documents/oracle_client/instantclient:/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-18 14:55:08.078 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-18 14:55:08.083 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/Sqlserver_springboot] - Initializing Spring embedded WebApplicationContext
+2019-06-18 14:55:08.083 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3593 ms
+2019-06-18 14:55:08.177 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-06-18 14:55:08.184 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-06-18 14:55:08.623 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-06-18 14:55:09.293 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-18 14:55:09.763 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:55:10.638 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:55:10.688 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:55:10.688 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-18 14:55:10.698 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-06-18 14:55:10.698 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:55:10.699 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-127.0.0.1-9999"]
+2019-06-18 14:55:10.729 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:55:10.733 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-18 14:59:54.909 [Thread-68] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 14:59:54.931 [Thread-68] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-6} closed
