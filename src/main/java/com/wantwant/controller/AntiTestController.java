@@ -25,14 +25,7 @@ public class AntiTestController {
     @Autowired
     private AntiTestService antiTestService;
 
-    //增加用户
-    @ResponseBody
-    @RequestMapping("/insertAntiTest")
-    public String insertAntiTest(AntiTest antiTest) {
-        return antiTestService.insertAntiTest(antiTest);
-    }
-
-    //查询所有的用户
+    //查询所有的设备
     @ResponseBody
     @RequestMapping("/selectAllAntiTest")
     public ModelAndView getAllAntiTest(Model model) throws Exception{
@@ -43,4 +36,14 @@ public class AntiTestController {
         model.addAttribute("anti_test",list);
         return new ModelAndView("show_table");
     }
+
+
+    //增加用户
+    @ResponseBody
+    @RequestMapping("/insertAntiTest")
+    public String insertAntiTest(AntiTest antiTest) {
+        return antiTestService.insertAntiTest(antiTest);
+    }
+
+
 }

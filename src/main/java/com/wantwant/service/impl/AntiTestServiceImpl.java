@@ -1,5 +1,7 @@
 package com.wantwant.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.wantwant.mapper.AntiTestMapper;
 import com.wantwant.pojo.AntiTest;
 import com.wantwant.service.AntiTestService;
@@ -19,6 +21,12 @@ public class AntiTestServiceImpl implements AntiTestService {
 
     @Autowired
     private AntiTestMapper antiTestMapper;
+    //显示所有数据
+    @Override
+    public List<AntiTest> selectAllAntiTest() {
+        List<AntiTest> list=antiTestMapper.selectAllAntiTest();
+        return list;
+    }
 
     //增加、修改信息
    @Override
@@ -30,10 +38,13 @@ public class AntiTestServiceImpl implements AntiTestService {
        }
        return null;
     }
-
-    @Override
-    public List<AntiTest> selectAllAntiTest() {
-       List<AntiTest> list=antiTestMapper.selectAllAntiTest();
-       return list;
+    //分页
+    public PageInfo<AntiTest> getUserWithPage1(AntiTest antiTest, Integer pageIndex, Integer pageSize) {
+        PageHelper.startPage(pageIndex,pageSize);
+        List<AntiTest> antiTests=antiTestMapper.selectAllAntiTest();
+        PageInfo<AntiTest> pageHelperInfo=new PageInfo<>(antiTests);
+       return pageHelperInfo;
     }
+
+
 }

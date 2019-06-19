@@ -17,4 +17,5 @@ public class HelloController {
         System.out.println("zhingixng");
         return "欢迎来到王者荣耀 ，测试springboot实现文本输出!";
     }
+
 }

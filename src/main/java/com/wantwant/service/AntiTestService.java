@@ -14,10 +14,11 @@ import java.util.List;
  * @create: 2019/06/17 16:41
  */
 public interface AntiTestService {
+    //查询table
+    List<AntiTest> selectAllAntiTest();
 
     //增加、修改table
     String insertAntiTest(AntiTest antiTest);
 
-    //查询table
-    List<AntiTest> selectAllAntiTest();
+
 }

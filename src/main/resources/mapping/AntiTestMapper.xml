@@ -8,6 +8,7 @@
     <result column="id" jdbcType="NUMERIC" property="id" />
   </resultMap>
 
+  <!--查询所有设备信息sql-->
   <select id="selectAllAntiTest" resultMap="BaseResultMap">
     select computername,createdate,cnt,id from anti_test
   </select>

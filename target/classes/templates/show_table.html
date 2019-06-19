@@ -3,7 +3,7 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>显示电脑信息</title>
+    <title>显示设备信息</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
@@ -12,62 +12,75 @@
 </head>
 
 <body>
+
 <div class="container">
-    <div class="row">
-        <div class="color-input-field">
-            <div class="panel color-rect-pane">
-                <div class="scroll-pane center-pill">
-                    <h2 class="header-panel">电脑信息</h2>
-                    <table border="1" width="1200" class="container">
-                        <thead>
-                        <tr>
-                            <td>id</td>
-                            <td>主机名</td>
-                            <td>创建时间</td>
-                            <td>数量</td>
-                            <td>操作</td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr th:if="${anti_test} eq 0">
-                            <td colspan="6">没有数据</td>
-                        </tr>
-                        <tr th:each="computer : ${anti_test}">
-                            <td th:text="${computer.id}">1</td>
-                            <td th:text="${computer.computername}">admin</td>
-                            <td th:text="${#dates.format(computer.createdate, 'yyyy年MM月dd日')}">1970-01-01</td>
-                            <td th:text="${computer.cnt}">2000.00</td>
-                            <td>
-                                <button type="button" class="btn btn-primary"
-                                        th:href="@{~/myproj1/view(userid=${computer.id},ttt=1)}">查看
-                                </button>
-                                <button type="button" class="btn btn-secondary"
-                                        th:href="@{/modify(userid=${computer.id},ttt=2)}">修改
-                                </button>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <div class="container">
-                        <div class="modal-footer right">
-                            <span class="header-panel">sunhaoyue@2019</span>
-                        </div>
-                        <h2>按钮样式</h2>
-                        <button type="button" class="btn">基本按钮</button>
-                        <button type="button" class="btn btn-primary">主要按钮</button>
-                        <button type="button" class="btn btn-secondary">次要按钮</button>
-                        <button type="button" class="btn btn-success">成功</button>
-                        <button type="button" class="btn btn-info">信息</button>
-                        <button type="button" class="btn btn-warning">警告</button>
-                        <button type="button" class="btn btn-danger">危险</button>
-                        <button type="button" class="btn btn-dark">黑色</button>
-                        <button type="button" class="btn btn-light">浅色</button>
-                        <button type="button" class="btn btn-link">链接</button>
-                    </div>
-                    <div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <form th:action="@{/findBycondition}">
+        <h3>查询栏位</h3>
+        <a>编号:</a><input id="computeid" name="computeid" class="form-search" placeholder="请输入设备编号"/>
+        <a>设备名称:</a><input id="computername" name="computername" class="form-search" placeholder="请输入设备名称"/>
+        <a>设备创建时间:</a><input id="createdate" name="createdate" class="form-search" placeholder="请输入设备创建时间"/>
+        <a>设备数量:</a><input id="computecnt" name="computecnt" class="form-search" placeholder="请输入设备数量"/>
+        <button type="submit" class="btn btn-success">查询</button>
+    </form>
+</div>
+
+
+<table border="1" width="1200" class="container">
+    <thead>
+    <tr>
+        <td>编号</td>
+        <td>设备名</td>
+        <td>创建时间</td>
+        <td>数量</td>
+        <td>操作</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${anti_test} eq 0">
+        <td colspan="6">没有数据</td>
+    </tr>
+    <tr th:each="computer : ${anti_test}">
+        <td th:text="${computer.id}">1</td>
+        <td th:text="${computer.computername}">admin</td>
+        <td th:text="${#dates.format(computer.createdate, 'yyyy年MM月dd日')}">1970-01-01</td>
+        <td th:text="${computer.cnt}">2000.00</td>
+        <td>
+            <button type="button" class="btn btn-primary"
+                    th:href="@{~/myproj1/view(userid=${computer.id},ttt=1)}">查看
+            </button>
+            <button type="button" class="btn btn-secondary"
+                    th:href="@{/modify(userid=${computer.id},ttt=2)}">修改
+            </button>
+            <button type="button" class="btn btn-danger"
+                    th:href="@{/modify(userid=${computer.id},ttt=3)}">删除
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div class="container">
+    <div class="modal-footer right">
+        <span class="header-panel">sunhaoyue@2019</span>
+    </div>
+    <h2>按钮样式</h2>
+    <button type="button" class="btn">基本按钮</button>
+    <button type="button" class="btn btn-primary">主要按钮</button>
+    <button type="button" class="btn btn-secondary">次要按钮</button>
+    <button type="button" class="btn btn-success">成功</button>
+    <button type="button" class="btn btn-info">信息</button>
+    <button type="button" class="btn btn-warning">警告</button>
+    <button type="button" class="btn btn-danger">危险</button>
+    <button type="button" class="btn btn-dark">黑色</button>
+    <button type="button" class="btn btn-light">浅色</button>
+    <button type="button" class="btn btn-link">链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<el-col :span="12">
+    <img th:src="@{/resources/static/assets/images/404.png}" alt="App Logo"/>
+</el-col>
+</div>
 </body>
 </html>

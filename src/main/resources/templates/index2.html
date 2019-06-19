@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmln="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录成功</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<table border="1" width="1200" class="container">
+    <thead>
+    <tr>
+       <h2>登录成功，欢迎光临</h2>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${peoplename} eq 0">
+        <td colspan="6">没有数据</td>
+    </tr>
+    <tr th:each="peoplename : ${peoplename}">
+        <td th:text="${peoplename}">1</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
