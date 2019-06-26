@@ -1,13 +1,14 @@
 package com.wantwant.service.impl;
 
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
+
 import com.wantwant.mapper.AntiTestMapper;
 import com.wantwant.pojo.AntiTest;
 import com.wantwant.service.AntiTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.xml.crypto.Data;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -16,7 +17,7 @@ import java.util.List;
  * @author: Sunhaoyue
  * @create: 2019/06/17 16:48
  */
-@Service
+@Service("AntiTestServiceImpl")
 public class AntiTestServiceImpl implements AntiTestService {
 
     @Autowired
@@ -24,26 +25,49 @@ public class AntiTestServiceImpl implements AntiTestService {
     //显示所有数据
     @Override
     public List<AntiTest> selectAllAntiTest() {
-        List<AntiTest> list=antiTestMapper.selectAllAntiTest();
+        List<AntiTest> listAll=antiTestMapper.selectAllAntiTest();
+        System.out.println("service:"+listAll.size());
+        System.out.println("service:"+listAll);
+        System.out.println("service:"+listAll.get(0).getComputername());
+        return listAll;
+    }
+    //按照条件显示所有数据
+    @Override
+    public List<AntiTest> selectAntiTest(long anti_id, String anti_name, Date anti_createdate, long anti_cnt) {
+        //PageHelper.startPage(page,rows);
+        List<AntiTest> list=antiTestMapper.selectAntiTest(anti_id,anti_name,anti_createdate,anti_cnt);
+        System.out.println("service:"+list.size());
+        System.out.println("service:"+list);
+        System.out.println("service:"+list.get(0).getComputername());
         return list;
     }
 
-    //增加、修改信息
-   @Override
-    public String insertAntiTest(AntiTest antiTest) {
-       //增加电脑
-       if (antiTest.getComputername()==null){
-            int i=antiTestMapper.insert(antiTest);
-            return "success";
-       }
-       return null;
+
+
+
+    @Override
+    public AntiTest getDetailAntiTestById(Integer id) {
+
+        return antiTestMapper.getDetailAntiTestById(id);
     }
-    //分页
-    public PageInfo<AntiTest> getUserWithPage1(AntiTest antiTest, Integer pageIndex, Integer pageSize) {
-        PageHelper.startPage(pageIndex,pageSize);
-        List<AntiTest> antiTests=antiTestMapper.selectAllAntiTest();
-        PageInfo<AntiTest> pageHelperInfo=new PageInfo<>(antiTests);
-       return pageHelperInfo;
+
+
+    @Override
+    public int delAntiTestById(Integer id) {
+        return antiTestMapper.delAntiTestById(id);
+    }
+
+    //新增
+    @Override
+    public void insertAntiTest(AntiTest antiTest) {
+        antiTestMapper.insertAntiTest(antiTest);
+    }
+
+    //编辑
+    @Override
+    public void editAntiTest(AntiTest antiTest) {
+        antiTestMapper.editAntiTest(antiTest);
+
     }
 
 

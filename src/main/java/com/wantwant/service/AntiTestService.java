@@ -2,8 +2,11 @@ package com.wantwant.service;
 
 
 import com.wantwant.pojo.AntiTest;
+import org.apache.ibatis.annotations.Param;
 
 
+import javax.xml.crypto.Data;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -14,11 +17,22 @@ import java.util.List;
  * @create: 2019/06/17 16:41
  */
 public interface AntiTestService {
-    //查询table
+    //查询所有table
     List<AntiTest> selectAllAntiTest();
+    //按条件查询所有table
+    List<AntiTest> selectAntiTest(@Param("anti_id") long anti_id, @Param("anti_name") String anti_name, @Param("anti_createdate") Date anti_createdate ,@Param("anti_cnt") long anti_cnt);
+    //查询设备详情
+    AntiTest getDetailAntiTestById(@Param("anti_id") Integer id);
+    //根据id删除记录
+    int delAntiTestById(Integer id);
+    //条件查询
+    //List<AntiTest> selectAntiTest(@Param("compute_name") String computename, @Param("id") long id, @Param("createdate") Date createdate , @Param("computecnt") long computecnt);
 
-    //增加、修改table
-    String insertAntiTest(AntiTest antiTest);
+    //新增
+    void insertAntiTest(AntiTest antiTest);
+    //编辑
+    void editAntiTest(AntiTest antiTest);
+
 
 
 }

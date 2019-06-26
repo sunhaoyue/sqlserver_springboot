@@ -16,8 +16,8 @@ import java.util.Date;
 @Component
 public interface LoginService {
     //用户登录验证
-    public AntiTest userlogin(@Param("user_name") String username, @Param("password") String password);
+    AntiTest userlogin(@Param("user_name") String username, @Param("password") String password);
 
     //注册新用户(方式1)
-    public int adduser(@Param("user_name") String username, @Param("password") String password, @Param("createdate") Date createdate ,@Param("computecnt") int computecnt);
+    int adduser(@Param("user_name") String username, @Param("password") long id, @Param("createdate") Date createdate ,@Param("computecnt") long computecnt);
 }

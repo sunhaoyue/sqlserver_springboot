@@ -2,7 +2,10 @@ package com.wantwant.mapper;
 
 import com.wantwant.pojo.AntiTest;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
+import javax.xml.crypto.Data;
+import java.util.Date;
 import java.util.List;
 /**
  * @program: Sqlserver_springboot
@@ -13,9 +16,18 @@ import java.util.List;
 @Mapper
 public interface AntiTestMapper {
 
-    int insert(AntiTest record);
-
-    int insertSelective(AntiTest record);
-
     List<AntiTest> selectAllAntiTest();
+    //查询所有table
+    List<AntiTest> selectAntiTest(@Param("anti_id") Long anti_id, @Param("anti_name") String anti_name, @Param("anti_createdate") Date anti_createdate ,@Param("anti_cnt") long anti_cnt);
+
+    AntiTest getDetailAntiTestById(@Param("anti_id") Integer id);
+
+    int delAntiTestById(Integer id);
+    //新增
+    void insertAntiTest(AntiTest record);
+    //编辑
+    void editAntiTest(AntiTest antiTest);
+
+
+
 }

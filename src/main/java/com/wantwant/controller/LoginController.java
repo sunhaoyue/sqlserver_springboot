@@ -2,6 +2,7 @@ package com.wantwant.controller;
 
 import com.wantwant.pojo.AntiTest;
 import com.wantwant.service.LoginService;
+import com.wantwant.service.impl.LoginServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,7 +25,7 @@ import java.util.Date;
 @Controller
 public class LoginController {
     @Autowired
-    private LoginService loginService;
+    private LoginServiceImpl loginService;
 
     @RequestMapping(value = {"/loginHtml"})
     public String loginHtml() {
@@ -33,14 +34,13 @@ public class LoginController {
 
     @RequestMapping(value = {"/userLogin"})
     public ModelAndView userLogin(@RequestParam("username") String username,
-                                  @RequestParam("password") String password,
-                                  HttpServletRequest request, Model model) {
+                                  @RequestParam("password") String password) {
         ModelAndView mv = new ModelAndView("index2");
         ModelAndView mv2 = new ModelAndView("error");
         AntiTest people = loginService.userlogin(username, password);
         String peoplename = people.getComputername();
-        mv.addObject("peoplename",peoplename);
-
+        mv.addObject("people_name",peoplename);
+        System.out.println("登录过程!");
         if (people != null)
             return mv;
         return mv2;

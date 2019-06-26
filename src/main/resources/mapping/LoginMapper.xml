@@ -11,11 +11,10 @@
     <!-- 登录验证-->
     <select id="userlogin" resultMap="BaseResultMap">
     SELECT computername,createdate,cnt,id FROM anti_test WHERE computername = #{user_name} AND id = #{password}
-
   </select>
     <!-- 注册语句-->
     <insert id="adduser">
-    INSERT INTO people (computername,createdate,cnt,id) VALUES (#{user_name},#{password},#{createdate},#{computecnt})
+    INSERT INTO anti_test (computername,createdate,cnt,id) VALUES (#{user_name},#{password},#{createdate},#{computecnt})
   </insert>
 
 </mapper>

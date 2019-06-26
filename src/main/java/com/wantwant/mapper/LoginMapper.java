@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * @program: Sqlserver_springboot
- * @description: ${description}
+ * @description: 登录映射类
  * @author: Sunhaoyue
  * @create: 2019/06/19 15:50
  */

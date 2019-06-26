@@ -15,7 +15,7 @@ import java.util.Date;
  * @create: 2019/06/19 15:43
  */
 
-@Service
+@Service("LoginServiceImpl")
 public class LoginServiceImpl implements LoginService {
 
 
@@ -28,6 +28,10 @@ public class LoginServiceImpl implements LoginService {
     }
 
     @Override
+    public int adduser(String username, long id, Date createdate, long computecnt) {
+        return 0;
+    }
+
     public int adduser(String username, String password, Date createdate, int computecnt) {
         return loginMapper.adduser(username,password,createdate,computecnt);
     }
