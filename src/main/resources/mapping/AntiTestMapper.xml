@@ -23,17 +23,17 @@
         createdate,
         cnt
         from anti_test
-        where
-        <if test="anti_id!=null">
+        where  1=1
+        <if test="anti_id!=null  and anti_id!=''">
             AND id = #{anti_id}
         </if>
-        <if test="anti_name!=null  and anti_name!=''">
-            AND computername = #{anti_name}
+        <if test="anti_name!=null and anti_name!=''">
+            AND computername LIKE '%'+#{anti_name}+'%'
         </if>
-        <if test="anti_createdate!=null and anti_createdate!=''">
-            AND createdate LIKE concat(#{anti_createdate},"%")
+        <if test="anti_createdate!=null">
+            AND createdate &gt;= #{anti_createdate,jdbcType=DATE}
         </if>
-        <if test="anti_cnt!=null">
+        <if test="anti_cnt!=null and anti_cnt!=''">
             AND cnt = #{anti_cnt}
         </if>
     </select>

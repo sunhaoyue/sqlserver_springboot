@@ -5,7 +5,6 @@ import com.wantwant.pojo.AntiTest;
 import org.apache.ibatis.annotations.Param;
 
 
-import javax.xml.crypto.Data;
 import java.util.Date;
 import java.util.List;
 
@@ -20,7 +19,7 @@ public interface AntiTestService {
     //查询所有table
     List<AntiTest> selectAllAntiTest();
     //按条件查询所有table
-    List<AntiTest> selectAntiTest(@Param("anti_id") long anti_id, @Param("anti_name") String anti_name, @Param("anti_createdate") Date anti_createdate ,@Param("anti_cnt") long anti_cnt);
+    List<AntiTest> selectAntiTest(@Param("anti_id") String anti_id, @Param("anti_name") String anti_name, @Param("anti_createdate") Date anti_createdate , @Param("anti_cnt") String anti_cnt);
     //查询设备详情
     AntiTest getDetailAntiTestById(@Param("anti_id") Integer id);
     //根据id删除记录

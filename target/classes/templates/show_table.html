@@ -14,10 +14,10 @@
     <div class="container">
         <form th:action="@{/selectAntiTest}" th:method="post">
             <h3>查询栏位</h3>
-            <a>编号:</a><input id="anti_id" name="anti_id" class="form-search" placeholder="请输入设备编号"/>
-            <a>设备名称:</a><input id="anti_name" name="anti_name" class="form-search" placeholder="请输入设备名称"/>
-            <a>设备创建时间:</a><input type="date" id="anti_createdate" name="anti_createdate" class="form-search" placeholder="请输入设备创建时间"/>
-            <a>设备数量:</a><input id="anti_cnt" name="anti_cnt" class="form-search" placeholder="请输入设备数量"/>
+            <a>编号:</a><input type="text" id="anti_id" name="anti_id" class="form-search" placeholder="请输入设备编号"/>
+            <a>设备名称:</a><input type="text" id="anti_name" name="anti_name" class="form-search" placeholder="请输入设备名称"/>
+            <a>设备创建时间:</a><input type="date" id="anti_createdate" name="anti_createdate" class="form-search"  placeholder="请输入设备创建时间"/>
+            <a>设备数量:</a><input type="text" id="anti_cnt" name="anti_cnt" class="form-search" placeholder="请输入设备数量"/>
             <button type="submit" class="btn btn-success">查询</button>
         </form>
     </div>

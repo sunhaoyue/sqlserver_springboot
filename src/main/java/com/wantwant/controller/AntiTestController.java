@@ -12,9 +12,7 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.lang.model.element.NestingKind;
-import javax.servlet.http.HttpServletRequest;
-import javax.xml.crypto.Data;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -32,6 +30,7 @@ public class AntiTestController {
     @Autowired
     private AntiTestServiceImpl antiTestService;
 
+    //处理前端保存数据到数据库
     @InitBinder
     public void initBinder(WebDataBinder binder) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -53,15 +52,18 @@ public class AntiTestController {
     //按条件查询所有的设备
     @ResponseBody
     @RequestMapping("/selectAntiTest")
-    public ModelAndView getAntiTest(@RequestParam("anti_id") long anti_id,
+    public ModelAndView getAntiTest(@RequestParam("anti_id") String anti_id,
                                        @RequestParam("anti_name") String anti_name,
-                                       @RequestParam("anti_createdate") Data anti_createdate,
-                                       @RequestParam("anti_cnt") int anti_cnt,Model model,Common common) {
-        List<AntiTest> list = antiTestService.selectAntiTest(anti_id,anti_name, (Date) anti_createdate,anti_cnt);
+                                       @RequestParam("anti_createdate") Date anti_createdate,
+                                       @RequestParam("anti_cnt") String anti_cnt,Model model,Common common) {
+        //String anti_createdate1=anti_createdate.toString();
+        //System.out.println("String装换后"+anti_createdate1);
+        List<AntiTest> list = antiTestService.selectAntiTest(anti_id,anti_name,anti_createdate,anti_cnt);
         System.out.println(list.size());
         System.out.println(list);
-        System.out.println(list.get(1).getComputername());
+        System.out.println("设备名"+list.get(0).getComputername()+"时间："+list.get(0).getCreatedate());
         model.addAttribute("anti_tests",list);
+        System.out.println("数据渲染中。。。。。");
         return new ModelAndView("show_table");
     }
     //删除用户信息

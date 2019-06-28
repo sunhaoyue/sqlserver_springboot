@@ -33,7 +33,7 @@ public class AntiTestServiceImpl implements AntiTestService {
     }
     //按照条件显示所有数据
     @Override
-    public List<AntiTest> selectAntiTest(long anti_id, String anti_name, Date anti_createdate, long anti_cnt) {
+    public List<AntiTest> selectAntiTest(String anti_id, String anti_name, Date anti_createdate, String anti_cnt) {
         //PageHelper.startPage(page,rows);
         List<AntiTest> list=antiTestMapper.selectAntiTest(anti_id,anti_name,anti_createdate,anti_cnt);
         System.out.println("service:"+list.size());

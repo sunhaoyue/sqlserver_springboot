@@ -18,7 +18,7 @@ public interface AntiTestMapper {
 
     List<AntiTest> selectAllAntiTest();
     //查询所有table
-    List<AntiTest> selectAntiTest(@Param("anti_id") Long anti_id, @Param("anti_name") String anti_name, @Param("anti_createdate") Date anti_createdate ,@Param("anti_cnt") long anti_cnt);
+    List<AntiTest> selectAntiTest(@Param("anti_id") String anti_id, @Param("anti_name") String anti_name, @Param("anti_createdate") Date anti_createdate ,@Param("anti_cnt") String anti_cnt);
 
     AntiTest getDetailAntiTestById(@Param("anti_id") Integer id);
 
