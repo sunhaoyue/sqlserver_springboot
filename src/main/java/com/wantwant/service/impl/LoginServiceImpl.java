@@ -28,12 +28,8 @@ public class LoginServiceImpl implements LoginService {
     }
 
     @Override
-    public int adduser(String username, long id, Date createdate, long computecnt) {
-        return 0;
-    }
-
-    public int adduser(String username, String password, Date createdate, int computecnt) {
-        return loginMapper.adduser(username,password,createdate,computecnt);
+    public int adduser(String username, String id, Date createdate, String computecnt) {
+        return loginMapper.adduser(username,id,createdate,computecnt);
     }
 
 }

@@ -19,5 +19,5 @@ public interface LoginMapper {
     AntiTest userlogin(@Param("user_name") String username, @Param("password") String password);
 
     //注册新用户(方式1)
-    int adduser(@Param("user_name") String username, @Param("password") String password, @Param("createdate") Date createdate, @Param("computecnt") int computecnt);
+    int adduser(@Param("user_name") String username, @Param("password") String password, @Param("createdate") Date createdate, @Param("computecnt") String computecnt);
 }

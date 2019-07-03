@@ -14,7 +14,7 @@
   </select>
     <!-- 注册语句-->
     <insert id="adduser">
-    INSERT INTO anti_test (computername,createdate,cnt,id) VALUES (#{user_name},#{password},#{createdate},#{computecnt})
+    INSERT INTO anti_test (computername,createdate,cnt,id) VALUES (#{user_name},#{createdate,jdbcType=DATE},#{computecnt},#{password})
   </insert>
 
 </mapper>

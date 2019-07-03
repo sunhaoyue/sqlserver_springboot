@@ -4,8 +4,11 @@ import com.wantwant.pojo.AntiTest;
 import com.wantwant.service.LoginService;
 import com.wantwant.service.impl.LoginServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.crypto.Data;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -26,6 +30,14 @@ import java.util.Date;
 public class LoginController {
     @Autowired
     private LoginServiceImpl loginService;
+
+    //处理前端保存数据到数据库
+    @InitBinder
+    public void initBinder(WebDataBinder binder) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        dateFormat.setLenient(false);
+        binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
+    }
 
     @RequestMapping(value = {"/loginHtml"})
     public String loginHtml() {
@@ -47,29 +59,33 @@ public class LoginController {
 
     }
 
-    @RequestMapping(value = {"/registerpage"})
+    @RequestMapping("/registerpage")
     public String registerpage() {
         return "register";
     }
 
     @ResponseBody
-    @RequestMapping(value = {"/uregister"})
+    @RequestMapping("/uregister")
     public String addUser(@RequestParam("username") String username,
                           @RequestParam("password") String password,
                           @RequestParam("password2") String password2,
-                          @RequestParam("createdate") Data createdate,
-                          @RequestParam("computecnt") int computecnt) {
+                          @RequestParam("createdate") Date createdate,
+                          @RequestParam("computecnt") String computecnt) {
 
-        if (!password.equals(password2)) {
-
-            return "两次密码不相同，注册失败！！";
+        if ((username == null) || (username == "") || (password == null) || (password == "") || (createdate == null) || (computecnt == null) || (computecnt == "")) {
+            return "redirect:/registerpage";
         } else {
-            int res = loginService.adduser(username, password, (Date) createdate, computecnt);
+            if (!password.equals(password2)) {
 
-            if (res == 0) {
-                return "注册失败！";
+                return "两次密码不相同，注册失败！！";
             } else {
-                return "注册成功！";
+                int res = loginService.adduser(username, password, createdate, computecnt);
+
+                if (res == 0) {
+                    return "注册失败！";
+                } else {
+                    return "redirect:/selectAllAntiTest";
+                }
             }
         }
     }

@@ -19,5 +19,5 @@ public interface LoginService {
     AntiTest userlogin(@Param("user_name") String username, @Param("password") String password);
 
     //注册新用户(方式1)
-    int adduser(@Param("user_name") String username, @Param("password") long id, @Param("createdate") Date createdate ,@Param("computecnt") long computecnt);
+    int adduser(@Param("user_name") String username, @Param("password") String id, @Param("createdate") Date createdate ,@Param("computecnt") String computecnt);
 }
