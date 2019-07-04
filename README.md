@@ -1,5 +1,5 @@
 # sqlserver_springboot
-标准依赖
+标准依赖  
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.boot</groupId>
@@ -53,3 +53,14 @@
     </plugins>
 </build>
 </project>
+
+二、资源加载视图图例  
+
+1、注册视图效果
+![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.05.21.png)
+
+2、登录界面
+![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.08.05.png)
+
+3、错误显示页面
+![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.08.17.png)
