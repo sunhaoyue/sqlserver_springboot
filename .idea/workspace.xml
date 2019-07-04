@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc801fd-2555-4b47-aed7-9278a1b83edd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/video/宠物消毒.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/video/狗.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -246,8 +243,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="72" />
+    <option name="x" value="92" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="828" />
   </component>
@@ -467,7 +464,7 @@
       <workItem from="1562051784271" duration="57000" />
       <workItem from="1562052486429" duration="313000" />
       <workItem from="1562053095392" duration="8478000" />
-      <workItem from="1562138191941" duration="5455000" />
+      <workItem from="1562138191941" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="艰苦了半天，终于，持久化到sqlserver数据库实现">
       <created>1561534989038</created>
@@ -504,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562209561900</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="视频资源存放路径static，springboot加载视频文件的中文乱码问题。&#10;（Tomcat之前就配置好的，servlet.tomcat.uri-ending=UTF-8）不知道为什么加载img src=&quot;中文&quot;有乱码，然后自己好了。到此资源加载到项目中了。">
+      <created>1562211224068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562211224068</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111113000" />
+    <option name="totallyTimeSpent" value="111423000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -520,7 +524,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="72" width="1440" height="828" extended-state="0" />
+    <frame x="92" y="23" width="1440" height="828" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8473451" visible="true" weight="0.31402004" />
       <window_info id="Structure" order="1" sideWeight="0.15265487" side_tool="true" visible="true" weight="0.31402004" />
@@ -563,7 +567,8 @@
     <MESSAGE value="完成前端保存数据到sqlserver数据库，实现insert数据！调试加载静态资源。&#10;html5与thymeleaf模板使用问题" />
     <MESSAGE value="实现前端加载资源，路径配置有关！重点关注！" />
     <MESSAGE value="实现前端视频、图片加载，springboot约定大约、高于配置。&#10;配置文件没有生效，通过@Configuration配置文件生效的。static静态资源路径。&#10;下一步骤研究配置，外部资源加载，以及优化目前的加载方式！" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现前端视频、图片加载，springboot约定大约、高于配置。&#10;配置文件没有生效，通过@Configuration配置文件生效的。static静态资源路径。&#10;下一步骤研究配置，外部资源加载，以及优化目前的加载方式！" />
+    <MESSAGE value="视频资源存放路径static，springboot加载视频文件的中文乱码问题。&#10;（Tomcat之前就配置好的，servlet.tomcat.uri-ending=UTF-8）不知道为什么加载img src=&quot;中文&quot;有乱码，然后自己好了。到此资源加载到项目中了。" />
+    <option name="LAST_COMMIT_MESSAGE" value="视频资源存放路径static，springboot加载视频文件的中文乱码问题。&#10;（Tomcat之前就配置好的，servlet.tomcat.uri-ending=UTF-8）不知道为什么加载img src=&quot;中文&quot;有乱码，然后自己好了。到此资源加载到项目中了。" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
