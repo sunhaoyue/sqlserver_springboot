@@ -13,7 +13,7 @@
     <artifactId>Sqlserver_springboot</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Sqlserver_springboot</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>

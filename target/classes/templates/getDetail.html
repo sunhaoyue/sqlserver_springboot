@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>设备详情</title>
+</head>
+<body>
+<div>
+    <table border="1" width="1200" class="container">
+        <thead>
+        <tr>
+            <td>编号</td>
+            <td>设备名</td>
+            <td>创建时间</td>
+            <td>数量</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${anti_test} eq 0">
+            <td colspan="6">没有数据</td>
+        </tr>
+        <tr th:each="computer : ${anti_test}">
+            <!--anti_test实体类的属性是private修饰，不可以直接调用 -->
+            <td th:text="${computer.id}">1</td>
+            <td th:text="${computer.computername}">admin</td>
+            <td th:text="${#dates.format(computer.createdate, 'yyyy年MM月dd日')}">1970-01-01</td>
+            <td th:text="${computer.cnt}">2000.00</td>
+    </table>
+</div>
+</body>
+</html>
